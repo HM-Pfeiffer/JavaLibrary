@@ -1,0 +1,37 @@
+# Java build files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven target directory
+/target/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+
+# Javalin temporary files (if any)
+*.pid
+
+# Test reports
+/test-output/
+surefire-reports/
+
+# Dependency directories
+/.mvn/
