@@ -55,7 +55,7 @@ JavaLibrary is a simple library management system built with Java. It provides R
 
 ## Running Tests
 
-Run unit tests with:
+Run unit tests with: JUnit
 
 ## Tools and Technologies
 Java, Javalin, Maven, JUnit, Mockito
