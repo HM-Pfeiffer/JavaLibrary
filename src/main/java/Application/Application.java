@@ -6,10 +6,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 /**
- * There is no need to modify anything in this class.
  * The main method will start a new Javalin API on the console at localhost:8080.
- * Take a look at the LibraryController class for API documentation as well as instructions for how to
- * access the API endpoints.
  */
 public class Application {
     /**
@@ -22,9 +19,8 @@ public class Application {
         libraryController.startAPI();
     }
     /**
-     * For the purpose of this short exercise, this method will destroy and set up new book and author tables.
-     * This is not a normal way to set up your tables, in real projects you should set up your database
-     * schema in a SQL editor such as DBeaver or DataGrip. Do not change anything in this method.
+     * This method will destroy and set up new book and author tables (not a normal way to set up your tables), 
+     * should set up db later with schema in a SQL editor such as DBeaver or DataGrip.
      */
     public static void databaseSetup(){
         try {
