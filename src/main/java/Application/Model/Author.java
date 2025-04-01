@@ -4,7 +4,6 @@ import java.util.Objects;
 
 /**
  * This class is used to model an Author.
- * Do not modify anything in this class.
  */
 public class Author {
     int id;
